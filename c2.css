@@ -1,0 +1,149 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #defce1;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+        header {
+            text-align: center;
+            background-color: #0cf06b;
+            color: rgb(241, 57, 57);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        main {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #0044cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2px;
+            color: #666;
+        }
+        
+img{
+    width: 800px;
+    text-align: center;
+    
+    
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    padding: 10 px 15px;
+    font-size: 18px;
+}
+footer {
+    background-color: #f0f8f2;
+    color: #080707;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+
+
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+.aplicacao {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;  
+    row-gap: 80px;     
+    justify-items: center;
+    padding: 60px 40px;}
+
+
+    .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin-top: 15px;
+    font-size: 18px;}
+
+    div {
+  display: flex;              
+  justify-content: center;      
+  gap: 50px;                      
+                   
+  color: rgb(27, 24, 24);                
+  padding: 10px 15px;           
+  
+  border-radius: 8px;           
+  font-family: Arial, sans-serif;
+  transition:  0.3s; 
+
+  font-size: 18px;
+}
+ nav a {
+        margin-right: 20px;
+        text-decoration: none; 
+        color: rgb(235, 41, 41);
+        font-weight: bold;
+    }
+
+    nav a:last-child {
+        margin-right: 0;
+    }
+
+
+   
+    
+
+
+@media (max-width: 900px) {
+    body {
+        margin: 10px;
+    }
+
+    nav, .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .aplicacao {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+  
+    header h1 {
+        font-size: 20px;
+    }
+
+
+    nav a {
+        font-size: 16px;
+    }
+
+   
+    main {
+        padding: 20px;
+    }
+}
